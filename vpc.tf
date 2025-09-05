@@ -3,6 +3,7 @@ resource "aws_vpc" "name" {
     tags = {
       Name = "git-vpc"
       dept = "devenv"
+      owner = "uday"
     }
   
 }
